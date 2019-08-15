@@ -5,5 +5,12 @@
     font-size: 30px;
     line-height: 26px;
     font-weight: 700;
+    text-transform: uppercase;
     text-align: center;
+    &__left {
+        color: #fff;
+        font-size: 36px;
+        line-height: 37px;
+        text-align: left;
+    }
 }
