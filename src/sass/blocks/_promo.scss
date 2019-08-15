@@ -48,8 +48,12 @@
         margin-top: 18px;
         a {
             color: #ffffff;
+            transition: 0.2s all;
             text-transform: uppercase;
             text-decoration: underline;
+            &:hover {
+                color: $main-color;
+            }
         }
     }
 }
