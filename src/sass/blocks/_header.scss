@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
     &__logo {
         width: 250px;
         img {
@@ -22,6 +24,11 @@
             margin-top: 12px;
         }
     }
+    &__contacts {
+        display: flex; 
+        flex-direction: column;
+        align-items: flex-end;
+    }
     &__phone {
         display: block;
         color: #ffffff;
@@ -32,10 +39,5 @@
             color: #fff;
             text-decoration: none;
         }
-    }
-    &__contacts {
-        display: flex; 
-        flex-direction: column;
-        align-items: flex-end;
     }
 }
