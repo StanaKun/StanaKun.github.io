@@ -44,27 +44,8 @@
             margin-top: 50px;
         }
     }
-    .header {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        height: 100vh;
-        padding-top: 100px;
-        &__official {
-            margin-top: 70px;
-            font-size: 15px;
-            span {
-                font-size: 22px;
-            }
-        }
-        &__contacts {
-            margin-top: 70px;
-            align-items: center;
-        }
-        &__phone {
-            font-size: 26px;
-            line-height: 26px;
-        }
+    .title {
+        font-size: 23px;
     }
     .promo {
         padding-top: 0;
@@ -87,6 +68,33 @@
             width: 320px;
             height: 230px;
             margin-top: 30px;
+        }
+    }
+    .header {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+        padding-top: 100px;
+        &__official {
+            margin-top: 70px;
+            font-size: 15px;
+            span {
+                font-size: 22px;
+            }
+        }
+        &__contacts {
+            margin-top: 70px;
+            align-items: center;
+        }
+        &__phone {
+            font-size: 26px;
+            line-height: 26px;
+        }
+    }
+    .adventages {
+        &__item {
+            margin-bottom: 50px;
         }
     }
 }
