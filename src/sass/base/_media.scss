@@ -15,12 +15,19 @@
             padding-right: 10px;
         }
     }
-    ul.slick-dots {
-        margin: 0 auto;
-    }
     .catalog {
         &__content {
             justify-content: space-around;
+        }
+    }
+    .reviews {
+        &__block {
+            img {
+                margin-right: 28px;
+            }
+        }
+        &__descr {
+            width: 550px;
         }
     }
 }
@@ -36,6 +43,36 @@
             margin-top: 50px;
             padding: 0;
             align-items: center;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 560px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 170px;
+        }
+    }
+    .reviews {
+        &__block {
+            img {
+                margin: 0 auto;
+            }
+        }
+        &__name {
+            margin-top: 10px;
+            text-align: center;
+        }
+        &__marafons {
+            text-align: center;
+        }
+        &__descr {
+            width: 100%;
         }
     }
 } 
