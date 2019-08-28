@@ -144,6 +144,7 @@
     }
     .consultation {
         height: 100vh;
+        padding-top: 60px;
         &__descr {
             margin-top: 50px;
         }
@@ -189,6 +190,9 @@
     }
 }
 @media (max-width: 374px) {
+    .consultation {
+        padding-top: 40px;
+    }
     .footer {
         &__addr, &__phone {
             font-size: 18px;
@@ -199,8 +203,5 @@
         &__close {
             right: 40px;
         }
-    }
-    .consultation {
-        padding-top: 20px;
     }
 }
