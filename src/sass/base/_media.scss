@@ -143,7 +143,7 @@
         }
     }
     .consultation {
-        height: 100vh;
+        min-height: 100vh;
         padding-top: 60px;
         &__descr {
             margin-top: 50px;
@@ -169,6 +169,15 @@
         &__content {
             margin-top: 30px;
         }
+        &-item {
+            &__footer {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            &__old-price {
+                text-align: center;
+            }
+        }
     }
     .footer {
         height: 100vh;
@@ -183,8 +192,11 @@
         }
     }
     .modal {
+        height: 100vh;
+        width: 100vw;
+        padding-top: 60px;
         &__close {
-            top: -40px;
+            top: 10px;
             right: 15px;
         }
     }

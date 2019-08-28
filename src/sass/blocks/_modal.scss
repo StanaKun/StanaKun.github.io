@@ -1,4 +1,5 @@
 .overlay {
+    z-index: 10;
     display: none;
     position: fixed;
     top: 0;
@@ -7,6 +8,7 @@
     background-color: rgba(0, 0, 0, 0.56);
 }
 .modal {
+    z-index: 10;
     position: absolute;
     top: 50%;
     left: 50%;
